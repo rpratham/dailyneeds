@@ -1,0 +1,21 @@
+h1 {
+	color: red;
+}
+div.d-flex {
+	flex-direction: row;
+}
+.container {
+	/* border: solid 1px #ff0000; */
+	flex-direction: column;
+    /* zoom: 1; */ /* IE6&7 */
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
